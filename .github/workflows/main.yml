@@ -17,7 +17,7 @@ jobs:
       - name: Run Feed Generator
         run: python feed.py
       - name: Push Repo
-        run: 
+        run: |
           git config Akarsha2002 github-actions
           git config akarshagowda15@gmail.com github-actions@github.com
           git add .
